@@ -5,7 +5,6 @@ const app = express();
 
 const proxy = httpProxy('http://backend-server1:9000', {
   proxyReqPathResolver: (req) => {
-    // You can implement custom logic for request path resolution here
     return '/api' + req.url;
   },
 });

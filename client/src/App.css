@@ -1,0 +1,38 @@
+/* App.css */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.drop-area {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.upload-button {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+
+}
+
+.button-container-div {
+  text-align: center;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  border-color: red;
+}
+
+.size-text-center {
+  text-align: center;
+}
